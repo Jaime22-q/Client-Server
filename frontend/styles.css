@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #0074D9; /* Blue color */
+    font-size: 24px;
+    font-weight: bold;
+}
+ul {
+    list-style: disc; /* Bulleted list */
+    margin-left: 20px; /* Indentation for readability */
+}
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+p {
+    font-style: italic;
+    color: #555;
+}
+a {
+    color: #0074D9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #0074D9;
+    color: #fff;
+    cursor: pointer;
+}
